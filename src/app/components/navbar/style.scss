@@ -1,0 +1,34 @@
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .site-logo {
+        padding: 5px;
+    }
+
+    .search {
+        padding: 5px;
+        display: flex;
+        align-items: center;
+
+        .search-bar {
+            width: 250px;
+            border: none;
+            background: rgb(214, 214, 214);
+            padding: 10px;
+            border-radius: 20px;
+            margin-right: 15px;
+            color: black;
+
+            @media screen and (max-width: 991px) {
+                width: 200px;
+            }
+        }
+
+        .search-btn {
+            cursor: pointer;
+        }
+    }
+}
